@@ -1,2 +1,0 @@
-# TrustWallet
-TrustWallet Task
