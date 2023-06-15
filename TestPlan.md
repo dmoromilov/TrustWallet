@@ -3,11 +3,12 @@ TrustWallet Task
 
 Test Plan: Flow to Complete Wallet Creation for TrustWallet Android Application
 
-Objective:
+1. Test Objective:
    The objective of this test plan is to verify the functionality and usability of the legal screen flow in the TrustWallet Android app. The legal screen is the initial step in the wallet creation process, where users are presented with legal terms and conditions that they must accept before proceeding.
 
-Test Environment:
+2. Test Environment:
    - Android emulator (Pixel 6 Pro)
+   - Android OS API34 (v14)
    - TrustWallet Android application (latest version)
    - Test accounts for various cryptocurrency networks (e.g., Ethereum, Bitcoin, etc.)
    - Test data (seed phrases, passcode, etc.)
@@ -72,17 +73,17 @@ Test Environment:
       - Verify that the user can recover the wallet successfully with the correct seed phrase and password.
       - Test wallet recovery with an incorrect seed phrase and validate the appropriate error message.
 
-Test Data:
+4. Test Data:
    - Valid passcode (minimum and maximum length)
    - Valid and invalid seed phrases
    - Test accounts on different cryptocurrency networks for recovery testing
 
-Test Execution:
+5. Test Execution:
    - Execute each test scenario and record the results.
    - Capture any defects or issues encountered during the test.
    - Report the test results and provide detailed steps to reproduce any identified issues.
 
-Test Coverage:
+6. Test Coverage:
    - Test the flow of creating a new wallet from start to finish.
    - Test different scenarios for password validation, seed phrase display, and recovery.
    - Verify the encryption of the wallet and access control through password protection.
